@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272c34;
+  color: white;
+}
+
+/* section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+/* .hidden {
+  display: none;
+} */
+
+  /* section div {
+    width: 70%;
+    height: min-content;
+    border: 2px solid #20c997;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 400px;
+    padding: 1rem;
+  } */
+
+  /* .xButton {
+    align-self: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px;
+  }
+
+  .xButton:hover {
+    cursor: pointer;
+  } */
+
+  .formPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    height: 100%;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .formPart li {
+    margin: 1rem;
+  }
+
+/* .show {
+  display: flex;
+} */
+
+.profileLinksOuterDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .profileLinksInnerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+  }
+
+    .profileLink {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+    }
+      .profileLink a {
+        color: white;
+      }
+
+      .profileLink p {
+        margin: 0.5rem;
+      }
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  height: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(168, 171, 170, 0.30);
+}
+
+.navbarItem {
+  font-weight: 400;
+  font-size: 1rem;
+  color:#20c997;
+  border: 1px solid #20c997;
+  border-radius: 5px;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0.5rem;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+  .navbarItem:hover {
+    box-shadow: 2px 2px 4px 2px #20c997;
+    color: white;
+  }
+  
+
+  
+
+.header {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+  .inputTask {
+    height: 2rem;
+    width: 10rem;
+    margin-right: 1rem;
+    border: 1px solid #20c997;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .inputTask:focus {
+    outline: 1px solid grey;
+    box-shadow: 2px 2px 4px 2px #20c997;
+  }
+
+  .inputDate {
+    height: 2rem;
+    width: 10rem;
+    margin-right: 1rem;
+    border: 1px solid #20c997;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .inputDate:focus {
+    outline: 1px solid grey;
+    box-shadow: 2px 2px 4px 2px#20c997;
+  }
+
+  .buttonAddTask {
+    border: 1px solid #20c997;
+    border-radius: 10px;
+    width: 5rem;
+  }
+
+  .buttonAddTask:hover {
+    background-color: #bbbaba;
+  }
+
+  .buttonAddTask:active {
+    background-color: #565656;
+  }
+
+
+.todoList {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+  h2 {
+    margin: 1rem;
+  }
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 3px rgb(168, 171, 170);
+  transition: all .2s ease-in-out;
+  margin-left: -0.1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 25rem;
+  height: 5rem;
+  min-width: 2rem;
+}
+
+  .listItem:hover {
+    box-shadow: 3px 3px 5px 3px #20c997;
+    transform: scale(1.02); 
+  }
+
+  .leftBoxSide {
+    margin-right: 1rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .rightBoxSide {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+
+    .close {
+      width: 1.2rem;
+      font-weight: bold;
+    }
+
+a {
+  text-decoration: none;
+}
